@@ -1,0 +1,18 @@
+= Self Driving Car
+:toc:
+:toc-title:
+:source-highlighter: rouge
+:source-language: nodejs
+
+.Internet of Things
+*********************
+[.text-center]
+This is a set of reports of how the whole car works together and how it's made.
+*********************
+
+== Contributors
+
+* Iakovos Mastrogiannopoulos, Full Stack/DevOps
+* Panagiotis Fiskilis, Camera API
+* Soitirios Anagnostopoulos, Sonar API
+* Panagiotis Zaritas, Raspberry Pi/Networking/Hardware
