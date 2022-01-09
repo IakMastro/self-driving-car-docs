@@ -1,1 +1,0 @@
-* xref:index.adoc[internet-of-things]

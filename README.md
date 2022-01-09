@@ -1,2 +1,3 @@
-# self-driving-car-docs
-The documentation for the self driving cars project
+# Self Driving Cars - Docs
+
+This doc format is generated automatically by [Docosaurus](https://docusaurus.io/)!
