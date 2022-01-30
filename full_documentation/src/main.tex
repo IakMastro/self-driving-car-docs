@@ -1,0 +1,73 @@
+% To documentclass. Αυτό τοποθετείτε στον cls κατάλογο και στο build του container κανονίζετε μόνο του!
+\documentclass[
+  11pt,
+  singlespacing,
+  liststotoc,
+  toctotoc,
+  headsepline
+]{Assignments}
+
+% Τα πακέτα του εγγράφου που χρησιμοποιούνται
+% Πακέτα γλώσσας
+\usepackage{alphabeta}
+\usepackage{lmodern}
+
+\usepackage{fontenc}
+% \usepackage{xgreek}
+% \usepackage{xunicode}
+% \usepackage{xltxtra}
+
+\usepackage[Greek,Latin]{ucharclasses}
+\setTransitionsForGreek{\setlanguage{greek}}{\setlanguage{american}}
+
+% Τα fonts του εγγράφου. Αυτά τοποθετούνται στον κατάλογο fonts
+\setromanfont[Mapping=tex-text]{Linux Libertine}
+
+\setmainfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\newfontfamily{\greekfont}{CMU Serif}
+\newfontfamily{\greekfontsf}{CMU Sans Serif}
+
+\setmainfont{GFS Didot}
+
+\usepackage[]{unicode-math}
+\setmathfont{Latin Modern Math}
+
+\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex}
+
+% Διαφορές βιβλιοθήκες με πολλαπλές χρήσης
+\usepackage{graphicx} % Εμφάνιση γραφικών
+\usepackage{booktabs} % Δημιουργία κεφαλαίων
+\usepackage{enumerate} % Αρίθμηση
+\usepackage{float}
+\usepackage{minted} % Βιβλιοθήκη που διαβάζει κώδικα και τον χρωματίζει
+
+% Βιβλιοθήκη που κάνει το reference των κεφαλαίων clickable. ΠΡΟΣΟΧΗ! μπαίνει πάντα τελευταίο.
+\usepackage[hidelinks]{hyperref}
+
+% Δημιουργία εξωφύλλου
+\title{Self driving car} % Τίτλος εγγράφου
+\author{I. Mastrogiannopoulos, S. Anagnostopoulos, P. Fiskilis, P. Zaritas} % Όνομα συγγραφέα/φοιτητή
+\institute{University of West Attica \\ Department of Informatics and Computer Engineering} % Όνομα ιδρύματος και τμήματος φοιτητή
+\class{Internet of Things} % Όνομα μαθήματος
+\professor{Apostolos Anagnostopoulos} % Καθηγητής μαθήματος
+
+% Αρχή του εγγράφου
+\begin{document}
+\includegraphics[width=25mm]{Figures/Logo} % Φωτογραφία
+\maketitle % Δημιουργία τίτλου
+
+% Abstract (μία μικρή σχετική περίληψη)
+\begin{abstract}
+
+\end{abstract}
+
+\newpage % Νέα σελίδα
+\tableofcontents % Πίνακας περιεχομένων
+\listoffigures % Πίνακας εικόνων
+\listoftables % Πίνακας πινάκων
+
+\newpage
+% \include{Chapters/Chapter1} % Include chapter1 από τον κατάλογο chapters. Μπορούν να προσδεθούν περισσότερα όσο μεγαλώνει το έγγραφο.
+\end{document}
+% Τέλος του εγγράφου
